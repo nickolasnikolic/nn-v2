@@ -3,15 +3,11 @@
   <head>
     <title>nn</title>
 
-    <!--vendor libraries start -->
-    <script src="js/vendor/jquery-2.1.3.js"></script>
-    <script src="js/vendor/fullPage/jquery.fullPage.js"></script>
     <link href="js/vendor/fullPage/jquery.fullpage.css" />
-    <script src="js/vendor/scrollReveal/dist/scrollReveal.js"></script>
-    <!--vendor libraries end -->
+    <link href="js/vendor/stroll/css/stroll.css" />
 
     <link href="css/style.css" type="text/css"/>
-    <script src="js/main.js"></script>
+
   </head>
   <body>
     <header>
@@ -134,5 +130,22 @@
       </nav>
       <p><small>public domain: all rights preserved.</small></p>
     </footer>
+
+    <script src="js/vendor/jquery-2.1.4.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/fullPage/jquery.fullPage.js"></script>
+    <script src="js/vendor/stroll/js/stroll.js"></script>
+    <script src="js/vendor/scrollReveal/dist/scrollReveal.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58159204-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
