@@ -3,14 +3,13 @@
   <head>
     <title>nn</title>
 
-    <link href="js/vendor/fullPage/jquery.fullpage.css" />
-    <link href="js/vendor/stroll/css/stroll.css" />
-
-    <link href="css/style.css" type="text/css"/>
+    <link ref="stylesheet" href="js/vendor/fullPage/jquery.fullpage.css" type="text/css">
+    <link ref="stylesheet" href="js/vendor/stroll/css/stroll.css" type="text/css">
+    <link ref="stylesheet" href="css/style.css" type="text/css">
 
   </head>
   <body>
-    <header>
+    <section>
       <h1>Nickolas Nikolic</h1>
       <nav>
         <a>about</a>
@@ -19,7 +18,7 @@
         <a>personal</a>
         <a>contact</a>
       </nav>
-    </header>
+    </section>
     <section id="content">
       <section id="about">
         <article id="bio">

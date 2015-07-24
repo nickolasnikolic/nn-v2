@@ -1,6 +1,6 @@
 html{}
 body{
-  background-color: rgb(233, 177, 8, 0.8);
+  background-color: rgba(233, 177, 8, 0.8);
   background-image: url(../images/clouds.jpg);
 }
 section{}
