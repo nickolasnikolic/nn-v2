@@ -136,8 +136,8 @@
       <p><small>public domain: all rights preserved.</small></p>
     </footer>
     <i
-        data-0="transform: scale(5.0) rotate(0deg); color: rgb(255, 165, 0);"
-        data-2500="transform: scale(2.4) rotate(2345deg); color: rgb(255, 255, 255);"
+        data-0="transform: scale(5.0) rotate(0deg); color: rgba(255, 165, 0, 0.5);"
+        data-2500="transform: scale(8.4) rotate(1234deg); color: rgba(13, 79, 144, 0.75);"
         id="flair" class="fa fa-refresh fa-5x" >fun</i>
     <script src="js/vendor/jquery-2.1.4.js"></script>
     <script src="js/vendor/underscore.js"></script>
