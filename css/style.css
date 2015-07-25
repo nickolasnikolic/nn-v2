@@ -1,7 +1,110 @@
 html{}
 body{
-  background-color: rgba(233, 177, 8, 0.8);
-  background-image: url(../images/clouds.jpg);
+  font-family: 'Flamenco', sans-serif;
+  font-weight: lighter;
+  background-color: rgba( 231, 123, 24, 0.7  );
+  background-image: url(../images/happydays.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: difference;
+  color: white;
 }
-section{}
-article{}
+
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0.75em;
+  background-color: black;
+  background-blend-mode: hard-light;
+  z-index: 2;
+}
+
+header h1{
+  display: inline;
+  color: white;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+h2{
+  padding-top: 2em;
+}
+
+nav{
+  color: white;
+  display: inline;
+}
+
+nav a{
+  margin-left: 4em;
+}
+
+footer{
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0.75em;
+  z-index: 3;
+}
+
+footer p{
+  float: right;
+  margin-right: 3em;
+}
+
+section{
+  background-color: transparent;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 5px;
+  display: inline-block;
+
+  background-blend-mode: color-dodge;
+}
+
+article{
+  background-color: rgba(233, 177, 8, 0.3);
+  background-image: url(../images/worm.jpg);
+
+  display: inline;
+
+  width: 35em;
+  float: left;
+
+  padding: 1em;
+  margin: 3em;
+  background-blend-mode: difference;
+}
+
+article h2{
+  color: white;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+body > section{
+  background-color: transparent;
+}
+
+button{
+  color: black;
+}
+
+#portfolio{
+  width: 60em;
+  margin: 1em auto;
+  clear: both;
+}
+
+.portfolio > div > div{
+  height: 10em;
+  width: 45em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.8);
+}
