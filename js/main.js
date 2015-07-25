@@ -33,7 +33,7 @@ $(document).ready(function(){
           if(count == holder.length - 1){
             count = 0
           }
-          setTimeout(runQue, 500);
+          setTimeout(runQue, 150);
         })()
 
 
