@@ -114,13 +114,18 @@
       <section id="contact" data-scroll-index="6">
         <h2>contact</h2>
         <article>
-          <form>
+          <!--<form>
             <p>name:</p><p><input type="text" /></p>
             <p>phone:</p><p><input type="text" /></p>
             <p>email:</p><p><input type="text" /></p>
             <p>message</p><p><textarea></textarea></p>
             <p><button>send</button></p>
-          </form>
+          </form>-->
+          <p>Nickolas Nikolic</p>
+          <p>6135 West Howard Ave<p>
+          <p>unit 8<p>
+          <p>subclass [at] gmail [dotcom]<p>
+          <p>414-628-8575<p>
         </article>
       </section>
     </section>
