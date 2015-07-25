@@ -6,10 +6,10 @@ body{
   background-image: url(../images/happydays.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: difference;
+  background-blend-mode: lighten;
+
   color: white;
 }
-
 header{
   position: fixed;
   top: 0px;
@@ -29,6 +29,7 @@ header h1{
 }
 
 h2{
+  color: #222;
   padding-top: 2em;
 }
 
@@ -42,7 +43,7 @@ nav a{
 }
 
 footer{
-  background-color: black;
+  background-color: transparent;
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -51,33 +52,51 @@ footer{
   z-index: 3;
 }
 
+footer nav{
+  position: relative;
+  left: -5em;
+}
+
 footer p{
   float: right;
-  margin-right: 3em;
+  margin-top: -5em;
+  margin-right: -3em;
+  transform: rotate(270deg);
 }
+
+#flair{
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  z-index: -1;
+}
+
+arbitrary i{}
 
 section{
   background-color: transparent;
   padding: 1em;
   margin: 1em auto;
   border-radius: 5px;
-  display: inline-block;
 
   background-blend-mode: color-dodge;
 }
 
 article{
-  background-color: rgba(233, 177, 8, 0.3);
-  background-image: url(../images/worm.jpg);
+  background-color: rgba(233, 177, 8, 0.8);
+  background-image: url(../images/nick.png);
+  background-position: 10em 5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 21em;
 
-  display: inline;
-
-  width: 35em;
-  float: left;
-
+  border-radius: 15px 0px 0px 0px;
   padding: 1em;
   margin: 3em;
-  background-blend-mode: difference;
+}
+
+#academic article, #personal article, #personal article{
+  width: 33em;
 }
 
 article h2{
@@ -92,6 +111,16 @@ body > section{
 
 button{
   color: black;
+}
+
+i{
+  font-family: 'Flamenco', sans-serif;
+  font-weight: lighter;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  margin: 3px;
+  position: relative;
+  top: 2px;
 }
 
 #portfolio{

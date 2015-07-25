@@ -14,4 +14,29 @@ $(document).ready(function(){
   });
   $('.portfolio > div').slick();
   var s = skrollr.init();
+
+  (function getSpidey(){
+    console.log('running spidey');
+    var holder = [];
+    $.getJSON('api/spidey')
+      .success(function(result){
+        _.mapObject(result, function(value){
+
+          holder.push(value);
+
+        });
+
+        var count = 0;
+        (function runQue(){
+          console.log('running runQue');
+          $('#flair').text('crawled: ' + holder[count++].title + ' awaiting...');
+          if(count == holder.length - 1){
+            count = 0
+          }
+          setTimeout(runQue, 60);
+        })()
+
+
+      });
+  })()
 });
