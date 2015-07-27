@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Flamenco:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>

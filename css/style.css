@@ -114,8 +114,7 @@ button{
 }
 
 i{
-  font-family: 'Flamenco', sans-serif;
-  font-weight: lighter;
+  font-family: 'VT323', monospace;
   background-blend-mode: multiply;
   opacity: 0.85;
   margin: 3px;
@@ -136,4 +135,10 @@ i{
   padding: 1em;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width: 921px) {
+    article {
+       width: auto;
+    }
 }
