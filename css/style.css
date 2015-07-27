@@ -71,8 +71,6 @@ footer p{
   z-index: -1;
 }
 
-arbitrary i{}
-
 section{
   background-color: transparent;
   padding: 1em;
@@ -114,7 +112,7 @@ button{
 }
 
 i{
-  font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace !important;
   background-blend-mode: multiply;
   opacity: 0.85;
   margin: 3px;
