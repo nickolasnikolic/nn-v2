@@ -26,10 +26,12 @@ $(document).ready(function(){
 
         });
 
+        $( '#spinner i' ).removeClass('fa-5x');
+
         var count = 0;
         (function runQue(){
           console.log('running runQue');
-          $('#flair').text('crawled: ' + holder[count++].title + ' awaiting...');
+          $('#spinnerText').text('crawled: ' + holder[count++].title + ' awaiting...');
           if(count == holder.length - 1){
             count = 0
           }

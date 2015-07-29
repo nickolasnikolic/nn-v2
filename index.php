@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Flamenco:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
@@ -102,7 +103,7 @@
             open-source software continually, and have been involved in more
             than 60 projects as of the time of this writing.</p>
 
-          <p>He is also an
+          <p>I am
             internationally published photojournalist/photographer specializing in
             Creative Commons media for niche publications such as
             Marxist.com,TreeHugger.com, DeliberateLife Magazine and hundreds of
@@ -135,10 +136,12 @@
       </nav>
       <p><small>public domain: all rights preserved.</small></p>
     </footer>
-    <i
-        data-0="transform: scale(5.0) rotate(0deg); color: rgba(255, 165, 0, 0.5);"
-        data-2500="transform: scale(8.4) rotate(1234deg); color: rgba(13, 79, 144, 0.75);"
-        id="flair" class="fa fa-refresh fa-5x" >fun</i>
+    <div id="spinner"
+
+    data-0="transform: scale(5.0) rotate(0deg); color: rgba(255, 165, 0, 0.5);"
+    data-2500="transform: scale(30) rotate(1234deg); color: rgba(13, 79, 144, 0.75);"
+
+    ><i id="flair" class="fa fa-refresh fa-5x" ></i><span id="spinnerText"></span></div>
     <script src="js/vendor/jquery-2.1.4.js"></script>
     <script src="js/vendor/underscore.js"></script>
     <script src="js/vendor/scrollReveal/dist/scrollReveal.js"></script>

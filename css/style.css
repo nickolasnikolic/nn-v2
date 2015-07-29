@@ -64,14 +64,22 @@ footer p{
   transform: rotate(270deg);
 }
 
-#flair{
+#spinner{
   position: fixed;
-  top: 15%;
-  right: 15%;
+  max-width: 10em;
+  top: 40%;
+  right: 35%;
   z-index: -1;
 }
 
-arbitrary i{}
+#spinnerText{
+  font-family: 'VT323', monospace;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  margin: 3px;
+  position: relative;
+  top: 2px;
+}
 
 section{
   background-color: transparent;
@@ -113,15 +121,7 @@ button{
   color: black;
 }
 
-i{
-  font-family: 'Flamenco', sans-serif;
-  font-weight: lighter;
-  background-blend-mode: multiply;
-  opacity: 0.85;
-  margin: 3px;
-  position: relative;
-  top: 2px;
-}
+i{}
 
 #portfolio{
   width: 60em;
