@@ -23,8 +23,6 @@
     <header>
       <h1 data-scroll-nav="0">Nickolas Nikolic</h1>
       <nav>
-        <a data-scroll-nav="1"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>about</a>
-        <!--<a data-scroll-nav="3"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>portfolio</a>-->
         <a data-scroll-nav="4"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>academic</a>
         <a data-scroll-nav="5"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>personal</a>
         <a data-scroll-nav="6"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>contact</a>
