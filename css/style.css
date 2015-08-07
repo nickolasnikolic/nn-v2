@@ -8,7 +8,7 @@ body{
   background-attachment: fixed;
   background-blend-mode: lighten;
 
-  color: black;
+  color: white;
 }
 header{
   position: fixed;
@@ -97,7 +97,7 @@ section{
 }
 
 article{
-  font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace !important;
   background-color: rgba(233, 177, 8, 0.8);
   background-image: url(../images/nick.png);
   background-position: 10em 5em;
