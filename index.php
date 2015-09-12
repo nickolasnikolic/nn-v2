@@ -55,7 +55,7 @@
             </div>
             <div class="portfolioText">
               <h2>Animation</h2>
-              <p>This project is in svg.</p>
+              <p>This project is part of a series done for an anti-drug campaign. It is programmed in svg.</p>
             </div>
           </div>
           <div>
