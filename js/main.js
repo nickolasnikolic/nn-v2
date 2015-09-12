@@ -2,11 +2,10 @@ $(document).ready(function(){
   enquire.register("screen and (min-width:921px)",{
     match: function(){
       $('article').not('.portfolio').attr('data-sr', 'enter left, scale down 20% over 1.2s');
-      //$('section').not(1).attr('data-sr', 'move');
     }
   });
 
-  //window.sr = new scrollReveal();
+  window.sr = new scrollReveal();
   $.scrollIt({
     upKey: 38,             // key code to navigate to the next section
     downKey: 40,           // key code to navigate to the previous section
