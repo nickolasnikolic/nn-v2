@@ -164,6 +164,9 @@ article.portfolio{
   article {
     margin: 0;
   }
+  article.portfolio{
+    width: inherit;
+  }
   div{
     width: inherit;
   }
