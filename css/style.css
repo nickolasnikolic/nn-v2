@@ -162,6 +162,7 @@ article.portfolio{
     width: 15em;
   }
   article {
+    width: auto !important;
     margin: 0;
   }
   article.portfolio{
