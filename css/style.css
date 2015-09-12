@@ -159,6 +159,7 @@ article.portfolio{
   nav a{
     display: block;
     clear: both;
+    margin-left: 1em;
   }
   img{
     width: 15em;
