@@ -45,7 +45,7 @@
 
       <section id="portfolio" data-scroll-index="3">
         <h2>portfolio</h2>
-        <article id="carousel" class="portfolio">
+        <article class="portfolio">
           <!--add more as they appear in your life...-->
           <div>
             <div class="portfolioVisual">
@@ -60,7 +60,7 @@
           </div>
           <div>
             <div class="portfolioVisual">
-              <img src="yo/portfolio/2/bw.jpg">
+              <a href="http://blindworm.me"><img src="yo/portfolio/2/bw.jpg"></a>
             </div>
             <div class="portfolioText">
               <h2>Site conception</h2>
@@ -79,6 +79,8 @@
             <div class="portfolioText">
               <h2>Mobile</h2>
               <p>This project aids sales staff in inputting customers into a proprietary CRM.</p>
+              <p><a href="https://itunes.apple.com/us/app/sales-buddy/id884759717">Apple App Store</a></p>
+              <p><a href="https://play.google.com/store/apps/details?id=com.morethanrewards.salesbuddy">Android App Store</a></p>
             </div>
           </div>
         </article>
