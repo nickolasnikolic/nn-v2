@@ -2,6 +2,8 @@ $(document).ready(function(){
   enquire.register("screen and (min-width:921px)",{
     match: function(){
       $('article').not('.portfolio').attr('data-sr', 'enter left, scale down 20% over 1.2s');
+      var s = skrollr.init();
+
     }
   });
 
@@ -19,8 +21,6 @@ $(document).ready(function(){
   $('#restartAnimationPortfolio1').click(function(){
     $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
   });
-
-  var s = skrollr.init();
 
   (function getSpidey(){
     console.log('running spidey');
