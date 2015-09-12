@@ -46,11 +46,16 @@
       <section id="portfolio" data-scroll-index="3">
         <h2>portfolio</h2>
         <article id="carousel" class="portfolio">
+          <!--add more as they appear in your life...-->
           <div>
-            <!--add more as they appear in your life...-->
-            <div>
-              <iframe id="portfolio1" src="yo/portfolio/1/300x250/index.html"></iframe><br />
+            <div class="portfolioVisual">
+              <iframe id="portfolio1" src="yo/portfolio/1/300x250/index.html"></iframe>
+              <br/>
               <button id="restartAnimationPortfolio1">restart animation</button>
+            </div>
+            <div class="portfolioText">
+              <h2>Animation</h2>
+              <p>This project is in svg.</p>
             </div>
           </div>
         </article>

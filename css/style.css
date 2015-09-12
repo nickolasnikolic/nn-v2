@@ -147,6 +147,14 @@ iframe{
   background-color: rgba(0,0,0,0.8);
 }
 
+.portfolioVisual{
+  float: left;
+}
+
+.portfolioText{
+  float: right;
+}
+
 article.portfolio{
   width: auto;
 }
