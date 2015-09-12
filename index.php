@@ -48,7 +48,10 @@
         <article id="carousel" class="portfolio">
           <div>
             <!--add more as they appear in your life...-->
-            <div><iframe id="portfolio1" src="yo/portfolio/1/300x250/index.html"></iframe><button>restart animation</button></div>
+            <div>
+              <iframe id="portfolio1" src="yo/portfolio/1/300x250/index.html"></iframe>
+              <button id="restartAnimationPortfolio1">restart animation</button>
+            </div>
           </div>
         </article>
       </section>
