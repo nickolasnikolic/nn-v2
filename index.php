@@ -79,8 +79,8 @@
             <div class="portfolioText">
               <h2>Mobile</h2>
               <p>This project aids sales staff in inputting customers into a proprietary CRM.</p>
-              <p><a href="https://itunes.apple.com/us/app/sales-buddy/id884759717">Apple App Store</a></p>
-              <p><a href="https://play.google.com/store/apps/details?id=com.morethanrewards.salesbuddy">Android App Store</a></p>
+              <p><a href="https://itunes.apple.com/us/app/sales-buddy/id884759717" target="_blank">Apple App Store</a></p>
+              <p><a href="https://play.google.com/store/apps/details?id=com.morethanrewards.salesbuddy" target="_blank">Android App Store</a></p>
             </div>
           </div>
         </article>
