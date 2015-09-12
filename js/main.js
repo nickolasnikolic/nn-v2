@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('article').attr('data-sr', 'enter left, scale down 20% over 1.2s');
+  $('article').not('.portfolio').attr('data-sr', 'enter left, scale down 20% over 1.2s');
   //$('section').not(1).attr('data-sr', 'move');
   window.sr = new scrollReveal();
   $.scrollIt({
