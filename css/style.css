@@ -152,7 +152,9 @@ article.portfolio{
 }
 
 @media screen and (max-width: 921px) {
-  body{
+  iframe{
+    width: 15em;
+    height: auto;
   }
   nav a{
     display: block;
