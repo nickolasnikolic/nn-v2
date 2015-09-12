@@ -60,13 +60,25 @@
           </div>
           <div>
             <div class="portfolioVisual">
-              <iframe id="portfolio2" src="http://blindworm.me"></iframe>
-              <br/>
-              <button id="restartAnimationPortfolio1">restart animation</button>
+              <img src="yo/portfolio/2/bw.jpg">
             </div>
             <div class="portfolioText">
               <h2>Site conception</h2>
               <p>This project is in php/mysql with use of the Amazon Product API.</p>
+              <p>It is a micro-service/UX fulcrum.</p>
+            </div>
+          </div>
+          <div>
+            <div class="portfolioVisual">
+              <img src="yo/portfolio/3/salesbuddy1.jpeg">
+              <br />
+              <img src="yo/portfolio/3/salesbuddy2.jpeg">
+              <br />
+              <img src="yo/portfolio/3/salesbuddy3.jpeg">
+            </div>
+            <div class="portfolioText">
+              <h2>Mobile</h2>
+              <p>This project aids sales staff in inputting customers into a proprietary CRM.</p>
             </div>
           </div>
         </article>
