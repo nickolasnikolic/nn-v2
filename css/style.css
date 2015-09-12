@@ -153,10 +153,8 @@ article.portfolio{
 
 @media screen and (max-width: 921px) {
   body{
-    font-size: 2em;
   }
   nav a{
-    font-size: 3em;
     display: block;
     clear: both;
   }
@@ -164,7 +162,6 @@ article.portfolio{
 
   }
   article {
-    font-size: 1.8em;
     margin: 0;
   }
 
