@@ -5,8 +5,8 @@ $(document).ready(function(){
     }
   });
 
-  window.sr = new scrollReveal();
-  /*$.scrollIt({
+  //window.sr = new scrollReveal();
+  $.scrollIt({
     upKey: 38,             // key code to navigate to the next section
     downKey: 40,           // key code to navigate to the previous section
     easing: 'linear',      // the easing function for animation
@@ -14,7 +14,7 @@ $(document).ready(function(){
     activeClass: 'active', // class given to the active nav element
     onPageChange: null,    // function(pageIndex) that is called when page is changed
     topOffset: 0           // offset (in px) for fixed top navigation
-  });*/
+  });
 
   $('#restartAnimationPortfolio1').click(function(){
     $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
