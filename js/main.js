@@ -12,7 +12,7 @@ $(document).ready(function(){
     onPageChange: null,    // function(pageIndex) that is called when page is changed
     topOffset: 0           // offste (in px) for fixed top navigation
   });
-  //$('.portfolio > div').slick();
+
   var s = skrollr.init();
 
   (function getSpidey(){

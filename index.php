@@ -47,9 +47,8 @@
         <h2>portfolio</h2>
         <article id="carousel" class="portfolio">
           <div>
-            <div><iframe src="yo/portfolio/1/160x600/index.html"></iframe></div>
+            <!--add more as they appear in your life...-->
             <div><iframe src="yo/portfolio/1/300x250/index.html"></iframe></div>
-            <div><iframe src="yo/portfolio/1/728x90/index.html"></iframe></div>
           </div>
         </article>
       </section>
