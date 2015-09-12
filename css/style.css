@@ -152,6 +152,9 @@ article.portfolio{
 }
 
 @media screen and (max-width: 921px) {
+  *{
+    width: auto !important;
+  }
   iframe{
     width: 15em;
     height: auto;
