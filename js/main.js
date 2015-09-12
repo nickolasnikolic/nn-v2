@@ -1,8 +1,12 @@
 $(document).ready(function(){
+  enquire.register("screen and (min-width:921px)",{
+    match: function(){
+      $('article').not('.portfolio').attr('data-sr', 'enter left, scale down 20% over 1.2s');
+      //$('section').not(1).attr('data-sr', 'move');
+    }
+  });
 
-  $('article').not('.portfolio').attr('data-sr', 'enter left, scale down 20% over 1.2s');
-  //$('section').not(1).attr('data-sr', 'move');
-  window.sr = new scrollReveal();
+  //window.sr = new scrollReveal();
   $.scrollIt({
     upKey: 38,             // key code to navigate to the next section
     downKey: 40,           // key code to navigate to the previous section
@@ -10,7 +14,7 @@ $(document).ready(function(){
     scrollTime: 600,       // how long (in ms) the animation takes
     activeClass: 'active', // class given to the active nav element
     onPageChange: null,    // function(pageIndex) that is called when page is changed
-    topOffset: 0           // offste (in px) for fixed top navigation
+    topOffset: 0           // offset (in px) for fixed top navigation
   });
 
   $('#restartAnimationPortfolio1').click(function(){

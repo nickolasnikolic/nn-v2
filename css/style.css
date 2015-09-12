@@ -155,10 +155,15 @@ article.portfolio{
 
   nav a{
     display: block;
+    clear: both;
   }
+  img{
 
+  }
   article {
-     width: auto;
+    width: auto !important;
+    font-size: 18px;
+    margin: 0;
   }
 
   .portfolio > div > div{
