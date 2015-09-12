@@ -60,7 +60,7 @@
           </div>
           <div>
             <div class="portfolioVisual">
-              <a href="http://blindworm.me"><img src="yo/portfolio/2/bw.jpg"></a>
+              <a href="http://blindworm.me" target="_blank"><img src="yo/portfolio/2/bw.jpg"></a>
             </div>
             <div class="portfolioText">
               <h2>Site conception</h2>
