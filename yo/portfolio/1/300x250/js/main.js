@@ -86,10 +86,6 @@ $(document).ready(function(){
     dot2.animate({ x: -3000 }, 3000, mina.easeout );
     dot3.animate({ x: -3000 }, 3000, mina.easeout );
     dot4.animate({ x: -3000 }, 3000, mina.easeout );
-    dot5.animate({ x: -3000 }, 3000, mina.easeout );
-    dot6.animate({ x: -3000 }, 3000, mina.easeout );
-    dot7.animate({ x: -3000 }, 3000, mina.easeout );
-    dot8.animate({ x: -3000 }, 3000, mina.easeout );
 
   };
   var phase6 = function(){
