@@ -37,10 +37,6 @@
           <p>Also a graduate student at the time of this writing, he runs a 3.75 GPA.</p>
           <p>A very nice guy, he has earned over 30 awards for customer relations
             and has been part of over 60 open source projects through the years</p>
-        </article>
-        <article id="profile">
-          <h3><i class="fa fa-circle"></i>profile</h3>
-          <p>Nickolas Nikolic is a developer of mobile and web from Milwaukee, WI USA.</p>
           <p>He is ravenously curious and deeply committed to the empowering effects of
             technology in the world.</p>
         </article>
@@ -50,21 +46,18 @@
           many more than the average developer.</p>
         </article>
       </section>
-      <!--
+
       <section id="portfolio" data-scroll-index="3">
         <h2>portfolio</h2>
         <section id="carousel" class="portfolio">
-          <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-            <div><h3><i class="fa fa-circle"></i>1</h3></div>
-            <div><h3><i class="fa fa-circle"></i>2</h3></div>
-            <div><h3><i class="fa fa-circle"></i>3</h3></div>
-            <div><h3><i class="fa fa-circle"></i>4</h3></div>
-            <div><h3><i class="fa fa-circle"></i>5</h3></div>
-            <div><h3><i class="fa fa-circle"></i>6</h3></div>
+          <div data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
+            <div><iframe src="yo/portfolio/1/160x600/index.html"></iframe></div>
+            <div><iframe src="yo/portfolio/1/300x250/index.html"></iframe></div>
+            <div><iframe src="yo/portfolio/1/728x90/index.html"></iframe></div>
           </div>
         </section>
       </section>
-      -->
+
       <section id="academic" data-scroll-index="4">
         <h2>academics</h2>
         <article id="miad">
