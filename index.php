@@ -40,22 +40,17 @@
           <p>He is ravenously curious and deeply committed to the empowering effects of
             technology in the world.</p>
         </article>
-        <article id="experience">
-          <h3><i class="fa fa-circle"></i>experience</h3>
-          <p>He has both volunteered and worked in many industries and is familiar with
-          many more than the average developer.</p>
-        </article>
       </section>
 
       <section id="portfolio" data-scroll-index="3">
         <h2>portfolio</h2>
-        <section id="carousel" class="portfolio">
+        <article id="carousel" class="portfolio">
           <div data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
             <div><iframe src="yo/portfolio/1/160x600/index.html"></iframe></div>
             <div><iframe src="yo/portfolio/1/300x250/index.html"></iframe></div>
             <div><iframe src="yo/portfolio/1/728x90/index.html"></iframe></div>
           </div>
-        </section>
+        </article>
       </section>
 
       <section id="academic" data-scroll-index="4">
