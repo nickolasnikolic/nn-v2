@@ -46,7 +46,7 @@
       <section id="portfolio" data-scroll-index="3">
         <h2>portfolio</h2>
         <article id="carousel" class="portfolio">
-          <div data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+          <div>
             <div><iframe src="yo/portfolio/1/160x600/index.html"></iframe></div>
             <div><iframe src="yo/portfolio/1/300x250/index.html"></iframe></div>
             <div><iframe src="yo/portfolio/1/728x90/index.html"></iframe></div>
