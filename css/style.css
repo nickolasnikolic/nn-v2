@@ -152,12 +152,17 @@ article.portfolio{
 }
 
 @media screen and (max-width: 921px) {
+
+  nav a{
+    display: block;
+  }
+
   article {
      width: auto;
   }
 
   .portfolio > div > div{
-    height: 10em;
+    min-height: 10em;
     width: auto;
     margin: 1em auto;
     padding: 1em;
