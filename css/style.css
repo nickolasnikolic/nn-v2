@@ -167,6 +167,12 @@ article.portfolio{
   div{
     width: inherit;
   }
+
+  footer{
+    position: inherit;
+  }
+
+  #spinner{ display: none; }
   .portfolio > div > div{
     width: inherit;
     margin: 0;
