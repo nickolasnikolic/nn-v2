@@ -23,6 +23,7 @@
     <header>
       <h1 data-scroll-nav="0">Nickolas Nikolic</h1>
       <nav>
+        <a data-scroll-nav="3"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>portfolio</a>
         <a data-scroll-nav="4"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>academic</a>
         <a data-scroll-nav="5"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>personal</a>
         <a data-scroll-nav="6"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>contact</a>
@@ -111,7 +112,7 @@
           <p>Nickolas Nikolic</p>
           <p>6135 West Howard Ave<p>
           <p>unit 8<p>
-          <p>subclass [at] gmail [dotcom]<p>
+          <p>nick [at] nick [dot] cool<p>
           <p>414-628-8575<p>
         </article>
       </section>
