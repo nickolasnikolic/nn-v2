@@ -140,7 +140,6 @@ iframe{
 }
 
 .portfolio > div > div{
-  height: 10em;
   width: 45em;
   margin: 1em auto;
   padding: 1em;
@@ -149,7 +148,16 @@ iframe{
 }
 
 @media screen and (max-width: 921px) {
-    article {
-       width: auto;
-    }
+  article {
+     width: auto;
+  }
+
+  .portfolio > div > div{
+    height: 10em;
+    width: auto;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+  }
 }

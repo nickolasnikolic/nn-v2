@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-  //$('#container').click(function(){ window.location = 'http://example.com'; });
-
   //set the stage
   var s = Snap('#doj');
   //layout elements
@@ -119,10 +117,6 @@ $(document).ready(function(){
     pledge.animate({opacity: 1}, 4000, mina.easeout);
   };
 
-  var restart = function(){
-    window.reload();
-  };
-
   phase1();
   setTimeout(phase2, 3000);
   setTimeout(phase3, 4500);
@@ -134,5 +128,4 @@ $(document).ready(function(){
   setTimeout(phase9, 17100);
   setTimeout(phase10, 18100);
   setTimeout(phase11, 19600);
-  setTimeout(restart, 24000);
 });
