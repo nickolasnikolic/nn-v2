@@ -13,6 +13,10 @@ $(document).ready(function(){
     topOffset: 0           // offste (in px) for fixed top navigation
   });
 
+  $('#restartAnimationPortfolio1').click(function(){
+    $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
+  });
+
   var s = skrollr.init();
 
   (function getSpidey(){
