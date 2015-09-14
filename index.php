@@ -19,16 +19,17 @@
   </head>
   <body data-scroll-index="0" data-0="background-color: rgba( 231, 123, 24, 0.7 );" data-2000="background-color: rgba(18, 76, 89, 0.2 );">
     <header>
-      <h1 data-scroll-nav="0">Nickolas Nikolic</h1>
+      <h1 data-scroll-nav="0"><a href="#about">Nickolas Nikolic</a></h1>
       <nav>
-        <a data-scroll-nav="3"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>portfolio</a>
-        <a data-scroll-nav="4"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>academic</a>
-        <a data-scroll-nav="5"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>personal</a>
-        <a data-scroll-nav="6"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>contact</a>
+        <a href="#portfolio" data-scroll-nav="3"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>portfolio</a>
+        <a href="#academic" data-scroll-nav="4"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>academic</a>
+        <a href="#personal" data-scroll-nav="5"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>personal</a>
+        <a href="#contact" data-scroll-nav="6"><i data-0="color: rgb(255, 165, 0);" data-1000="color: rgb(255, 255, 255 );" class="fa fa-dot-circle-o"></i>contact</a>
       </nav>
   </header>
     <section id="content">
       <section id="about" data-scroll-index="1">
+        <a name="about" />
         <h2>about</h2>
         <article id="bio">
           <h3><i class="fa fa-circle"></i>who is this guy?</h3>
@@ -42,6 +43,7 @@
       </section>
 
       <section id="portfolio" data-scroll-index="3">
+        <a name="portfolio" />
         <h2>portfolio</h2>
         <article class="portfolio">
           <!--add more as they appear in your life...-->
@@ -85,6 +87,7 @@
       </section>
 
       <section id="academic" data-scroll-index="4">
+        <a name="academics" />
         <h2>academics</h2>
         <article id="miad">
           <h3><i class="fa fa-circle"></i>miad (no degree)</h3>
@@ -100,6 +103,7 @@
         </article>
       </section>
       <section id="personal" data-scroll-index="5">
+        <a name="personal"/>
         <h2>personal</h2>
         <article>
           <h3><i class="fa fa-circle"></i>Open Source</h3>
@@ -130,6 +134,7 @@
         </article>
       </section>
       <section id="contact" data-scroll-index="6">
+        <a name="contact" />
         <h2>contact</h2>
         <article>
           <!--<form>
@@ -149,7 +154,7 @@
     </section>
     <footer>
       <nav>
-        <a data-scroll-goto="0"><i class="fa fa-arrow-up"></i>top</a>
+        <a href="#about" data-scroll-goto="0"><i class="fa fa-arrow-up"></i>top</a>
       </nav>
       <p><small>public domain: all rights preserved.</small></p>
     </footer>
@@ -160,7 +165,6 @@
 
     ><i id="flair" class="fa fa-refresh fa-5x" ></i><span id="spinnerText"></span></div>
     <script src="js/vendor/jquery-2.1.4.js"></script>
-    <script src="js/vendor/scrollIt.js"></script>
     <script src="js/main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
