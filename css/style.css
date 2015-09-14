@@ -46,6 +46,14 @@ nav a{
   margin-left: 4em;
 }
 
+a{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
 footer{
   background-color: transparent;
   position: fixed;
