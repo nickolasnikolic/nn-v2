@@ -147,7 +147,7 @@ iframe{
   clear: both;
 }
 
-.portfolio > div > div{
+.portfolio div > div{
   min-width: 20em;
   margin: 1em auto;
   padding: 1em;
@@ -161,7 +161,7 @@ article.portfolio{
 
 @media screen and (max-width: 919px) {
   iframe{
-    width: 15em;
+    width: 100%;
     height: auto;
   }
   nav a{
@@ -194,8 +194,8 @@ article.portfolio{
   }
 
   #spinner{ display: none; }
-  .portfolio > div > div{
-    width: inherit;
+  .portfolio div > div{
+    min-width: inherit;
     margin: 0;
     margin-bottom: 1em;
     padding: 1em;
