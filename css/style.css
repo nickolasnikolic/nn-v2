@@ -1,4 +1,4 @@
-html{}
+
 body{
   font-family: 'Flamenco', sans-serif;
   font-weight: lighter;
@@ -140,7 +140,7 @@ iframe{
 }
 
 .portfolio > div > div{
-  width: 45em;
+  min-width: 20em;
   margin: 1em auto;
   padding: 1em;
   border-radius: 5px;
@@ -151,13 +151,13 @@ article.portfolio{
   width: auto;
 }
 
-@media screen and (max-width: 921px) {
+@media screen and (max-width: 919px) {
   iframe{
     width: 15em;
     height: auto;
   }
   nav a{
-    display: none;
+    display: block;
   }
   img{
     width: 15em;
