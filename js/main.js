@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  /*
   (function getSpidey(){
     console.log('running spidey');
     var holder = [];
@@ -23,10 +24,11 @@ $(document).ready(function(){
           })()
         });
   })()
+  */
 
   $('#restartAnimationPortfolio1').click(function(){
     $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
   });
 
-  var s = skrollr.init();
+  //var s = skrollr.init();
 });

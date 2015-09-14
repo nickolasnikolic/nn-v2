@@ -79,7 +79,7 @@ footer p{
 
 
 #spinner{
-
+  display: none;
   position: fixed;
   max-width: 10em;
   top: 40%;
