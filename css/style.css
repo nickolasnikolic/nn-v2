@@ -192,7 +192,9 @@ article.portfolio{
   footer{
     position: inherit;
   }
-
+  #portfolio{
+    margin: 0;
+  }
   #spinner{ display: none; }
   .portfolio div > div{
     min-width: inherit;
