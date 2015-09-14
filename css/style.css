@@ -192,6 +192,10 @@ article.portfolio{
   footer{
     position: inherit;
   }
+  #content{
+    margin: 0;
+    padding: 0 0 0 1em;
+  }
   #portfolio{
     margin: 0;
   }
