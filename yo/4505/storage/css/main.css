@@ -9,23 +9,21 @@ body{
 }
 
 header{
-    padding: 1em;
     background-color: rgba(0,50,0,0.8);
-}
-
-header h1{
-    color: white;
+    padding: 1em;
 }
 
 header ul > li, footer ul > li{
-    display: block;
+    display: inline;
     list-style: none;
     margin-left: 3em;
 }
 
 header > h1 > img:nth-child(1){
-    margin-right: 5em;
-    width: 5em;
+    margin-right: 10em;
+    height: 9em;
+    width: 9em;
+    border-radius: 100%;
     float: right;
 }
 
@@ -36,7 +34,6 @@ a, a:visited{
 
 section{
     padding: 1em;
-    color: black;
 }
 
 article{
@@ -47,26 +44,6 @@ article{
     
     background-color: rgba(245,245,255,0.5);
     border-radius: 5px;
-}
-
-h1, h2, h3, h4, h5, h6, h7, h8{
-    color: brown;
-}
-
-h2{
-    margin-left: 1em;
-}
-
-h3{
-    margin-left: 4em;
-}
-
-h4{
-    margin-left: 6em;
-}
-
-article ul{
-    margin-left: 8em;
 }
 
 footer{
