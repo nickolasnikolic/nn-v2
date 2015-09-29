@@ -58,7 +58,8 @@ $(document).ready(function(){
     $('circle').each(function() {
       $(this).velocity({
         cx: Math.random() * width,
-        cy: Math.random() * height
+        cy: Math.random() * height,
+        opacity: Math.random()
       }, speed, function () {
         animateDiv();
       });
