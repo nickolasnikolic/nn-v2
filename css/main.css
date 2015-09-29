@@ -84,7 +84,7 @@ img{
   display: none;
 }
 
-@media screen and (max-device-width: 921px){
+@media screen and (max-device-width: 1081px){
   h1{
     font-size: 4em;
   }
