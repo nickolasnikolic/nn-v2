@@ -39,6 +39,7 @@ article{
 }
 
 h1{
+  padding: 2em;
   font-family: 'gistextrabold';
   font-size: 5em;
   color: white;
