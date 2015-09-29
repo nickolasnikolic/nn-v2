@@ -52,7 +52,7 @@ h2,h3,h4,h5,h6{
 }
 
 a{
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
 a:visited{
@@ -66,6 +66,10 @@ a:hover{
 
 a[href="#portfolio"]{
   display: none;
+}
+
+header a{
+  text-decoration: underline;
 }
 
 iframe{
