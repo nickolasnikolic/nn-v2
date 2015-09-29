@@ -56,7 +56,7 @@ $(document).ready(function(){
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
     $('circle').each(function() {
-      $(this).animate({
+      $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height
       }, speed, function () {

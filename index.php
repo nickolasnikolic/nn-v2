@@ -158,6 +158,7 @@
 
     <script src="js/vendor/jquery-2.1.4.js"></script>
     <script src="js/vendor/snap.svg-min.js"></script>
+    <script src="js/vendor/velocity.min.js"></script>
     <script src="js/main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
