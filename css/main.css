@@ -79,3 +79,10 @@ img{
 #portfolio{
   display: none;
 }
+
+@media screen and (max-device-width: 921px){
+  header{
+    position: inherit;
+    height: inherit;
+  }
+}
