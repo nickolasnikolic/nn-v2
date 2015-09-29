@@ -39,7 +39,6 @@ article{
 }
 
 h1{
-  padding: 2em;
   font-family: 'gistextrabold';
   font-size: 5em;
   color: white;
@@ -83,6 +82,11 @@ img{
 
 @media screen and (max-device-width: 921px){
   header{
+    padding: 3em;
+
+    background-color: transparent;
+    background-image: none;
+    float: none;
     position: static;
     height: auto;
   }
