@@ -25,7 +25,7 @@ $(document).ready(function(){
 
   for(var i = 0; i < 30; i++){
     var randomValue = Math.random();
-    var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height / i );
+    var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
 
 
 
