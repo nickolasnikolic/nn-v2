@@ -31,7 +31,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomColor(),
-      opacity: randomValue / 3
+      opacity: randomValue
     });
   }
 
@@ -57,8 +57,8 @@ $(document).ready(function(){
 
     $('circle').each(function() {
       $(this).animate({
-        cx: Math.random() * width, //newq[0],
-        cy: Math.random() * height //newq[1]
+        cx: Math.random() * width,
+        cy: Math.random() * height
       }, speed, function () {
         animateDiv();
       });
