@@ -34,7 +34,7 @@ interface RequestFactoryInterface
      *     - port:   e.g. 80
      *     - user:   e.g. michael
      *     - pass:   e.g. rocks
-     *     - path:   e.g. / OR /index.php
+     *     - path:   e.g. / OR /index.html
      *     - query:  after the question mark ?
      * @param array|Collection                          $headers         HTTP headers
      * @param string|resource|array|EntityBodyInterface $body            Body to send in the request

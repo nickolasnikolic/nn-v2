@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'gist_upright_linelight';
+    letter-spacing: 0.02em;
+    
+    background-image: url(../images/pins-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: yellowgreen;
+    color: brown;
+}
+
+header{
+    padding: 1em;
+    background-color: rgba(0,50,0,0.8);
+}
+
+header h1{
+    color: white;
+    font-family: 'gist_uprightblack';
+    font-size: 3.8em;
+}
+
+header ul > li, footer ul > li{
+    display: block;
+    list-style: none;
+    margin-left: 3em;
+}
+
+header > h1 > img:nth-child(1){
+    margin-right: 5em;
+    width: 5em;
+    float: right;
+}
+
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    padding: 1em;
+    color: black;
+}
+
+article{
+    min-height: 8.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px dotted white;
+    
+    background-color: rgba(245,245,255,0.5);
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8{
+    color: brown;
+}
+
+h2{
+    margin-left: 1em;
+}
+
+h3{
+    margin-left: 4em;
+}
+
+h4{
+    margin-left: 6em;
+}
+
+article ul{
+    margin-left: 8em;
+}
+
+footer{
+    background-color: rgba(0,50,0,0.8);
+    padding: 1em;
+}
