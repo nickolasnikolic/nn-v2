@@ -81,6 +81,9 @@ img{
 }
 
 @media screen and (max-device-width: 921px){
+  h1{
+    font-size: 4em;
+  }
   header{
     padding: 3em;
 
