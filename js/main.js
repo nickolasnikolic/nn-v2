@@ -31,7 +31,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomColor(),
-      opacity: randomValue
+      opacity: randomValue / 3
     });
   }
 
