@@ -15,7 +15,7 @@ header{
   top: 0em;
   height: 100%;
   float: right;
-  background-color: rgba(10,10,10,0.1);
+  background-color: rgba(10,10,10,0.03);
   background-image: url(../images/bgHeader.png);
 
   z-index: 3;
