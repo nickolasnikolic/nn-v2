@@ -8,8 +8,8 @@ $(document).ready(function(){
   var width = window.innerWidth;
 
   $('.bgSvg').css({
-    'height': height,
-    'width': width
+    'height': height + 100,
+    'width': width + 100
   });
 
   var s = Snap('#bgSvg');
