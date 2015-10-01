@@ -38,8 +38,8 @@ section{
 article{
   z-index: 4;
   padding: 2em;
-
-  background-color: rgba(0,0,0,0.4);
+  color: white;
+  background-color: rgba(0,0,0,0.75);
 }
 
 #bgSvg{
