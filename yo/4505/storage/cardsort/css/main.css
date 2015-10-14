@@ -13,9 +13,9 @@ body{
     color: brown;
 }
 
-header{
+header, footer{
     padding: 1em;
-    background-color: rgba(0,50,0,0.8);
+    background-color: rgba(0,0,0,0.4);
 }
 
 header h1{
@@ -38,7 +38,7 @@ header > h1 > img:nth-child(1){
 
 a, a:visited{
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 section{
@@ -47,12 +47,12 @@ section{
 }
 
 article{
-    min-height: 8.5em;
+    overflow: auto;
     padding: 1em;
     margin-bottom: 1em;
     border-bottom: 1px dotted white;
     
-    background-color: rgba(245,245,255,0.5);
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -76,7 +76,39 @@ article ul{
     margin-left: 8em;
 }
 
-footer{
-    background-color: rgba(0,50,0,0.8);
-    padding: 1em;
+.float{
+    width: 25em;
+    margin-left: 2em;
+    float: left;
+}
+
+/* medium display only */
+@media (max-width:768px) {
+    .float{
+        width: 32em;
+        float: none;
+    }
+    article{
+        margin: 0 0 0 3em;
+        overflow: visible;
+        width: 100%;
+        background-color: white;
+    }
+}
+/* small display only */
+@media (max-width:480px) {
+    h1,h2,h3,h4,h5,h6{
+        margin-left: 0;
+    }
+    .float{
+        width: auto;
+        float: none;
+    }
+    section{
+        width: auto;
+    }
+    article{
+        margin: 0;
+        width: auto;
+    }
 }
