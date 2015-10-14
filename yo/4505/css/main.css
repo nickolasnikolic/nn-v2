@@ -30,8 +30,8 @@ header > h1 > img:nth-child(1){
     float: right;
 }
 
-a, a:visited{
-    color: white;
+a, a:visited,a:link,a:active{
+    color: rosybrown;
     text-decoration: none;
 }
 
