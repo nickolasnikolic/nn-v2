@@ -91,7 +91,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
-        strokeWidth: Math.random() * 300,
+        strokeWidth: Math.random() * 1000,
         opacity: Math.random()
       }, speed, function () {
         animateDiv();
