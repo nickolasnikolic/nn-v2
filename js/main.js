@@ -24,11 +24,16 @@ $(document).ready(function(){
   }
 
   function getRandomGrayscale() {
-    var letters = '0123456789'.split('');
+    var letters = '0123456789ABCDEFG'.split('');
     var color = '#';
+    var colorDuplet = '';
     for (var i = 0; i < 3; i++ ) {
-      var value = Math.floor(Math.random() * 10)
-      color += letters[value] + letters[value];
+
+      colorDuplet = letters[Math.floor(Math.random() * 16)] + letters[Math.floor(Math.random() * 16)];
+
+      for(var i = 0; i < 3; i++){
+        color += colorDuplet;
+      }
     }
     console.log(color);
     return color;
