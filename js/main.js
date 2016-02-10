@@ -24,10 +24,10 @@ $(document).ready(function(){
   }
 
   function getRandomGrayscale() {
-    var letters = '0123456789ABCDEF'.split('');
+    var letters = '0123456789'.split('');
     var color = '#';
     for (var i = 0; i < 3; i++ ) {
-      var value = Math.floor(Math.random() * 16)
+      var value = Math.floor(Math.random() * 10)
       color += letters[value] + letters[value];
     }
     console.log(color);
