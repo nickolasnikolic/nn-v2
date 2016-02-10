@@ -156,7 +156,7 @@
     <section class="svgContainer">
       <svg id="bgSvg" class="bgSvg" />
     </section>
-    <section><article><img id="embellishment" class="pulse" src="images/embellishment.png"/></article></section>
+    <img id="embellishment" class="pulse" src="images/embellishment.png"/>
     <footer>
       <nav>
         <a href="#about">top</a>
