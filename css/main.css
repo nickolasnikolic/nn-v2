@@ -4,8 +4,8 @@ body{
   font-size: 0.8em;
   text-transform: lowercase;
   background-color: #999;
-  background: linear-gradient(to bottom right, #999, black);
-  background-image: url(../images/bg-tile.png);
+  background: linear-gradient(to bottom right, #999, #000);
+  /*background-image: url(../images/bg-tile.png);*/
 }
 
 header{
