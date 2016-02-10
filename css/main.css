@@ -30,19 +30,19 @@ section{
   z-index: 2;
   padding: 2em;
   width: 23em;
-
-  background-color: rgba(0,0,0,0.75);
-
   background-image: url(../images/embellishment.png);
   background-repeat: no-repeat;
   background-position: 100% 7%;
 
-  border-radius: 1em 0em 1em 1em;
 }
 
 article{
   z-index: 4;
+  margin: 2em;
   padding: 2em;
+  background-color: rgba(0,0,0,0.75);
+
+  border-radius: 1em 0em 1em 1em;
 }
 
 #bgSvg{
