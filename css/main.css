@@ -25,7 +25,7 @@ section{
   z-index: 2;
   padding: 2em;
   width: 23em;
-  background-image: url(../images/embellishment.png);
+  background-image: content('a');
   background-repeat: no-repeat;
   background-position: 100% 7%;
 
