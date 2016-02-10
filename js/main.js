@@ -30,6 +30,7 @@ $(document).ready(function(){
       var value = Math.floor(Math.random() * 16)
       color += letters[value] + letters[value];
     }
+    console.log(color);
     return color;
   }
 
