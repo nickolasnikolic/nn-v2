@@ -10,7 +10,7 @@ header{
   position: fixed;
   right: 0em;
   top: 0em;
-  height: 75%;
+  height: 100%;
   float: right;
   background-color: rgba(10,10,10,0.1);
   background-image: url(../images/embellishment2.png);
