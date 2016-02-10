@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $('a').addClass('hvr-buzz');
+  $('h2').addClass('pulse');
 
   $('#restartAnimationPortfolio1').click(function(){
     $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
