@@ -47,6 +47,13 @@ article{
   left: 0;
 }
 
+#embellishment{
+  z-index: 1;
+  position: fixed;
+  bottom: 0em;
+  right: 0em
+}
+
 .svgContainer{
   background-image: none;
 }
