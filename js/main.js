@@ -75,7 +75,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
-        opacity: Math.random() / 3
+        opacity: Math.random() / 3 + 75
       }, speed, function () {
         animateDiv();
       });
