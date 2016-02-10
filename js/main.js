@@ -79,6 +79,9 @@ $(document).ready(function(){
       }, speed, function () {
         animateDiv();
       });
+
+      $(this).css('background-blend-mode', 'difference');
+
     });
 
   };
