@@ -89,6 +89,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
+        cr: Math.random() * height,
         strokeWidth: Math.random() * 150,
         opacity: Math.random()
       }, speed, function () {
