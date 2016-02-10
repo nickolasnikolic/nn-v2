@@ -90,7 +90,7 @@ $(document).ready(function(){
 
     var greatest = x > y ? x : y;
 
-    var speedModifier = 0.005;
+    var speedModifier = 0.1;
 
     var speed = Math.ceil(greatest / speedModifier);
 
