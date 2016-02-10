@@ -61,14 +61,16 @@ p{
 
 a{
   text-decoration: none;
-  color: gray;
+  color: darkgray;
   mix-blend-mode: darken;
 }
 a:visited{
   text-decoration: none;
+  color: darkgray;
 }
 a:hover{
   text-decoration: none;
+  color: darkgray;
 }
 
 a[href="#portfolio"]{
