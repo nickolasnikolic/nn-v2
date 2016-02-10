@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 
     circle.attr({
-      fill: getRandomGrayscale(),
+      fill: Snap('#pattern'),//getRandomGrayscale(),
       stroke: '#fff',
       strokeWidth: 3,
       opacity: 0
