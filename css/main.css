@@ -33,6 +33,8 @@ section{
   background-image: url(../images/embellishment.png);
   background-repeat: no-repeat;
   background-position: 100% 7%;
+
+  border-radius: 1em 0em 1em 1em;
 }
 
 article{
