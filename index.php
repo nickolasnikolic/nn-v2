@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/fonts/gist/stylesheet.css" />
     <link rel="stylesheet" href="css/fonts/questa/stylesheet.css" />
     <link rel="stylesheet" href="css/fonts/wausau/stylesheet.css" />
+    <link rel="stylesheet" href="css/hover.css" />
     <link rel="stylesheet" href="css/main.css" />
 
   </head>
