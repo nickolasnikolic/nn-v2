@@ -97,7 +97,7 @@ circle{
   background-blend-mode: difference;
 }
 
-@media screen and (max-device-width: 1081px){
+@media screen and (max-width: 1081px){
   h1{
     font-size: 4em;
   }
@@ -112,47 +112,49 @@ circle{
   }
 }
 
-/*animations*/
-/* Pulse */
-@-webkit-keyframes pulse {
-  25% {
-    -webkit-transform: scale(3.1);
-    transform: scale(3.1);
+@media screen and (min-width: 1081px) {
+  /*animations*/
+  /* Pulse */
+  @-webkit-keyframes pulse {
+    25% {
+      -webkit-transform: scale(3.1);
+      transform: scale(3.1);
+    }
+
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
   }
 
-  75% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
+  @keyframes pulse {
+    25% {
+      -webkit-transform: scale(3.1);
+      transform: scale(3.1);
+    }
 
-@keyframes pulse {
-  25% {
-    -webkit-transform: scale(3.1);
-    transform: scale(3.1);
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
   }
 
-  75% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+  .pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
   }
-}
-
-.pulse {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
-  -webkit-animation-name: hvr-pulse;
-  animation-name: hvr-pulse;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
 }
