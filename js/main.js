@@ -42,7 +42,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomGrayscale(),
-      opacity: randomValue / 6
+      opacity: randomValue / 20
     });
   }
 
