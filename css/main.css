@@ -21,6 +21,7 @@ header{
 nav a{
   display: inline;
   font-size: 3em;
+  z-index: 4;
 }
 
 section{
