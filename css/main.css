@@ -75,6 +75,7 @@ a:visited{
 a:hover{
   text-decoration: none;
   color: white;
+  outline: dotted;
 }
 
 a[href="#portfolio"]{
