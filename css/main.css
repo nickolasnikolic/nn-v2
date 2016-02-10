@@ -35,7 +35,7 @@ article{
   padding: 0em 2em;
   background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
 
-  border: 1px solid white;
+  border: 5px solid white;
 
   border-radius: 4em 0em 1em 1em;
 }
