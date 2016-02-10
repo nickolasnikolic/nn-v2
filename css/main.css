@@ -3,6 +3,8 @@ body{
   font-family: 'gist_uprightregular';
   font-size: 0.8em;
   text-transform: lowercase;
+  background-color: gainsboro;
+  background-blend-mode: difference;
 }
 
 header{
