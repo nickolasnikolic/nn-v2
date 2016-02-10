@@ -90,7 +90,7 @@
     <h2><a name="services">Services</a></h2>
     <article id="concierge">
       <h3>Concierge</h3>
-      <p>For retainer fee of $300 per month, I manage your entire online presence. Add mobile for another $150 pre month.</p>
+      <p>For retainer fee of $300 per month, I manage your entire online presence. Add mobile for another $150 per month.</p>
     </article>
     <article id="dayCare">
       <h3>Day Care</h3>
