@@ -93,6 +93,7 @@ img{
 
 circle{
   mix-blend-mode: multiply;
+  background-blend-mode: difference;
 }
 
 @media screen and (max-device-width: 1081px){
