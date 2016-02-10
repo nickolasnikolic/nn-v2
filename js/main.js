@@ -41,6 +41,18 @@ $(document).ready(function(){
     return color;
   }
 
+  // Now lets create pattern
+  var p = s.path("M10-5-10,15M15,0,0,15M0-5-20,15").attr({
+    fill: "none",
+    stroke: "#bada55",
+    strokeWidth: 5
+  });
+  // To create pattern,
+  // just specify dimensions in pattern method:
+    p = p.pattern(0, 0, 10, 10);
+  // Then use it as a fill on big circle
+
+
   for(var i = 3; i > 0; i--){
     var randomValue = Math.random();
     var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
@@ -48,7 +60,7 @@ $(document).ready(function(){
 
 
     circle.attr({
-      fill: Snap('#pattern'),//getRandomGrayscale(),
+      fill: p,//getRandomGrayscale(),
       stroke: '#fff',
       strokeWidth: 3,
       opacity: 0
