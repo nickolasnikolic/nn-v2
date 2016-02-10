@@ -62,7 +62,7 @@ $(document).ready(function(){
     circle.attr({
       fill: p,
       stroke: '#fff',
-      strokeWidth: Math.random() * 300,
+      strokeWidth: Math.random() * 13,
       opacity: 0
     });
   }
@@ -91,6 +91,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
+        strokeWidth: Math.random() * 300,
         opacity: Math.random()
       }, speed, function () {
         animateDiv();
