@@ -23,6 +23,16 @@ $(document).ready(function(){
     return color;
   }
 
+  function getRandomGrayscale() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 3; i++ ) {
+      var value = Math.floor(Math.random() * 16)
+      color += letters[value] + letters[value];
+    }
+    return color;
+  }
+
   for(var i = 15; i > 0; i--){
     var randomValue = Math.random();
     var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
@@ -30,8 +40,8 @@ $(document).ready(function(){
 
 
     circle.attr({
-      fill: getRandomColor(),
-      opacity: randomValue / 3
+      fill: getRandomGrayscale(),
+      opacity: randomValue / 6
     });
   }
 
