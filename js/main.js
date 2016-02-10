@@ -39,7 +39,7 @@ $(document).ready(function(){
     return color;
   }
 
-  for(var i = 50; i > 0; i--){
+  for(var i = 3; i > 0; i--){
     var randomValue = Math.random();
     var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
-        opacity: Math.random() / 10
+        opacity: Math.random() / 3
       }, speed, function () {
         animateDiv();
       });
