@@ -39,7 +39,7 @@ $(document).ready(function(){
     return color;
   }
 
-  for(var i = 10; i > 0; i--){
+  for(var i = 50; i > 0; i--){
     var randomValue = Math.random();
     var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
 
