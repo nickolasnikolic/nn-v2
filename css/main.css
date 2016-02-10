@@ -18,7 +18,7 @@ header{
 }
 
 nav a{
-  display: block;
+  display: inline;
   font-size: 3em;
 }
 
@@ -103,7 +103,7 @@ circle{
   }
   header{
     padding: 3em;
-
+    display: block;
     background-color: transparent;
     background-image: none;
     float: none;
