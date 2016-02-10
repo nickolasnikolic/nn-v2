@@ -8,8 +8,8 @@ $(document).ready(function(){
   var width = window.innerWidth;
 
   $('.bgSvg').css({
-    'height': height + 100,
-    'width': width + 100
+    'height': $(window).height() + 100,
+    'width': $(window).width() + 100
   });
 
   var s = Snap('#bgSvg');
@@ -79,8 +79,6 @@ $(document).ready(function(){
       }, speed, function () {
         animateDiv();
       });
-
-      $(this).css('background-blend-mode', 'multiply');
 
     });
 
