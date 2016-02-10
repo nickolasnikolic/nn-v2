@@ -50,7 +50,7 @@ article{
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'wausauregular';
-  color: gray;
+  color: darkgray;
   font-size: 3.5em;
   mix-blend-mode: multiply;
 }
