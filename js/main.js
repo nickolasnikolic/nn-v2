@@ -41,28 +41,28 @@ $(document).ready(function(){
     return color;
   }
 
-  // Now lets create pattern
-  var p = s.path("M10-5-10,15M15,0,0,15M0-5-20,15").attr({
-    fill: "none",
-    stroke: getRandomColor(),
-    strokeWidth: 5
-  });
-  // To create pattern,
-  // just specify dimensions in pattern method:
-    p = p.pattern(0, 0, 10, 10);
-  // Then use it as a fill on big circle
+
 
 
   for(var i = 3; i > 0; i--){
     var randomValue = Math.random();
     var circle = s.circle(  randomValue * width, randomValue * height, randomValue * height );
 
-
+    // Now lets create pattern
+    var p = s.path("M10-5-10,15M15,0,0,15M0-5-20,15").attr({
+      fill: "none",
+      stroke: getRandomColor(),
+      strokeWidth: 5
+    });
+    // To create pattern,
+    // just specify dimensions in pattern method:
+    p = p.pattern(0, 0, 10, 10);
+    // Then use it as a fill on big circle
 
     circle.attr({
-      fill: p,//getRandomGrayscale(),
+      fill: p,
       stroke: '#fff',
-      strokeWidth: 3,
+      strokeWidth: Math.random() * 30,
       opacity: 0
     });
   }
