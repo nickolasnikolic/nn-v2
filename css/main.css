@@ -118,6 +118,10 @@ circle{
     position: static;
     height: auto;
   }
+
+  #embellishment{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1081px) {
