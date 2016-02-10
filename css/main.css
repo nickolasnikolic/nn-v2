@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6{
   color: darkgray;
   font-size: 3.5em;
   mix-blend-mode: multiply;
-  margin: 0.5em 0em;
+  margin: 0.12345em 0em;
 }
 
 p{
