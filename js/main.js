@@ -50,7 +50,7 @@ $(document).ready(function(){
     var p = s.path("M10-5-10,15M15,0,0,15M0-5-20,15").attr({
       fill: "none",
       stroke: getRandomColor(),
-      strokeWidth: 5
+      strokeWidth: 3
     });
     // To create pattern,
     // just specify dimensions in pattern method:
@@ -59,7 +59,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: p,
-      stroke: '#fff',
+      stroke: '#000',
       strokeWidth: Math.random() * 13,
       opacity: 0
     });
