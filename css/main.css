@@ -49,34 +49,28 @@ article{
   background-image: none;
 }
 
-h1{
-  font-family: 'gistextrabold';
-  font-size: 5em;
-  color: white;
-}
-
-h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
   font-family: 'wausauregular';
   color: gray;
   font-size: 3.5em;
 }
 
 p{
-  color: white;
+  color: gray;
   background-blend-mode: multiply;
 }
 
 a{
   text-decoration: none;
-  color: white;
+  color: lightgray;
 }
 a:visited{
   text-decoration: none;
-  color: white;
+  color: darkgray;
 }
 a:hover{
   text-decoration: none;
-  color: white;
+  color: dimgray;
   outline: dotted;
 }
 
