@@ -4,6 +4,7 @@ body{
   font-size: 0.8em;
   text-transform: lowercase;
   background-color: gainsboro;
+  background-image: url(../images/bg-tile.png);
 }
 
 header{
