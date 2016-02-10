@@ -1,17 +1,15 @@
 $(document).ready(function(){
 
-  $('nav a').addClass('hvr-buzz');
+  var height = $(window).height();
+  var width = $(window).width();
 
-  $('#restartAnimationPortfolio1').click(function(){
-    $('#portfolio1').attr('src', $('#portfolio1').attr('src'));
-  });
-
-  var height = window.innerHeight;
-  var width = window.innerWidth;
+  if( width > 1080 ){
+    $('nav a').addClass('hvr-buzz');
+  }
 
   $('.bgSvg').css({
-    'height': $(window).height() + 100,
-    'width': $(window).width() + 100
+    'height': height + 100,
+    'width': width + 100
   });
 
   var s = Snap('#bgSvg');
