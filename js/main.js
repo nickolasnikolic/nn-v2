@@ -24,12 +24,12 @@ $(document).ready(function(){
   }
 
   function getRandomGrayscale() {
-    var letters = '0123456789ABCDEFG'.split('');
+    var letters = '0123456789ABCDE'.split('');
     var color = '#';
     var colorDuplet = '';
     for (var i = 0; i < 3; i++ ) {
 
-      colorDuplet = letters[Math.floor(Math.random() * 16)] + letters[Math.floor(Math.random() * 16)];
+      colorDuplet = letters[Math.floor(Math.random() * 15)] + letters[Math.floor(Math.random() * 15)];
 
       for(var i = 0; i < 3; i++){
         color += colorDuplet;
