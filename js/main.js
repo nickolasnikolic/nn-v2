@@ -44,7 +44,7 @@ $(document).ready(function(){
   // Now lets create pattern
   var p = s.path("M10-5-10,15M15,0,0,15M0-5-20,15").attr({
     fill: "none",
-    stroke: "#bada55",
+    stroke: getRandomColor(),
     strokeWidth: 5
   });
   // To create pattern,
