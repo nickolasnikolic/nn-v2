@@ -22,6 +22,7 @@
       <nav>
         <a href="#about">about</a>
         <a href="#portfolio">portfolio</a>
+        <a href="#services">services</a>
         <a href="#academic">academic</a>
         <a href="#personal">personal</a>
         <a href="#contact">contact</a>
@@ -84,6 +85,18 @@
       </div>
     </article>
   </section>
+  <section id="services">
+
+    <h2><a name="services">Services</a></h2>
+    <article id="concierge">
+      <h3>Concierge</h3>
+      <p>For retainer fee of $300 per month, I manage your entire online presence. Add mobile for another $150 pre month.</p>
+    </article>
+    <article id="dayCare">
+      <h3>Day Care</h3>
+      <p>For retainer fee of $300 for a one-on-one meeting to assess needs in web or mobile, I then go to work for up to an additional 9 hours. Additional hours at $50 per hour.</p>
+    </article>
+  </section>
 
   <section id="academic">
 
@@ -132,17 +145,10 @@
 
     <h2><a name="contact">contact</a></h2>
     <article>
-      <!--<form>
-        <p>name:</p><p><input type="text" /></p>
-        <p>phone:</p><p><input type="text" /></p>
-        <p>email:</p><p><input type="text" /></p>
-        <p>message</p><p><textarea></textarea></p>
-        <p><button>send</button></p>
-      </form>-->
       <p>Nickolas Nikolic</p>
       <p>6135 West Howard Ave<p>
       <p>unit 8<p>
-      <p>nick [at] nick [dot] cool<p>
+      <p>me [at] nick [dot] cool<p>
       <p>414-628-8575<p>
     </article>
   </section>
