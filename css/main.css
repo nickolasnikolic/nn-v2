@@ -50,8 +50,8 @@ article{
 #embellishment{
   z-index: 1;
   position: fixed;
-  bottom: 10em;
-  right: 10em
+  bottom: 50%;
+  right: 50%;
 }
 
 .svgContainer{
