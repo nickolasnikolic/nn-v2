@@ -49,10 +49,9 @@ article{
 
 #embellishment{
   z-index: 1;
-  transform: scale(10);
   position: fixed;
-  bottom: 0em;
-  right: 0em
+  bottom: 10em;
+  right: 10em
 }
 
 .svgContainer{
