@@ -52,9 +52,6 @@ article{
   position: fixed;
   bottom: 15em;
   right: 15em;
-
-  background-color: white;
-  border-radius: 100%;
 }
 
 .svgContainer{
