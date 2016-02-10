@@ -30,6 +30,9 @@ section{
   z-index: 2;
   padding: 2em;
   width: 23em;
+
+  background-color: rgba(0,0,0,0.75);
+
   background-image: url(../images/embellishment.png);
   background-repeat: no-repeat;
   background-position: 100% 7%;
@@ -40,7 +43,6 @@ section{
 article{
   z-index: 4;
   padding: 2em;
-  background-color: rgba(0,0,0,0.75);
 }
 
 #bgSvg{
