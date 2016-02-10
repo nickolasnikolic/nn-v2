@@ -49,7 +49,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomGrayscale(),
-      stroke: white,
+      stroke: '#fff',
       strokeWidth: 3,
       opacity: 0
     });
