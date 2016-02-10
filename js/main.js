@@ -47,7 +47,7 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomGrayscale(),
-      opacity: randomValue / 20
+      opacity: randomValue / 100
     });
   }
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
       $(this).velocity({
         cx: Math.random() * width,
         cy: Math.random() * height,
-        opacity: Math.random() / 60
+        opacity: Math.random() / 10
       }, speed, function () {
         animateDiv();
       });
