@@ -49,6 +49,8 @@ $(document).ready(function(){
 
     circle.attr({
       fill: getRandomGrayscale(),
+      stroke: white,
+      strokeWidth: 3,
       opacity: 0
     });
   }
