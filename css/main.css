@@ -116,8 +116,8 @@ circle{
 /* Pulse */
 @-webkit-keyframes pulse {
   25% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(3.1);
+    transform: scale(3.1);
   }
 
   75% {
@@ -128,8 +128,8 @@ circle{
 
 @keyframes pulse {
   25% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(3.1);
+    transform: scale(3.1);
   }
 
   75% {
@@ -147,8 +147,8 @@ circle{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-animation-duration: 19s;
-  animation-duration: 19s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
   -webkit-animation-timing-function: linear;
