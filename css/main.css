@@ -62,15 +62,15 @@ p{
 
 a{
   text-decoration: none;
-  color: lightgray;
+  color: royalblue;
 }
 a:visited{
   text-decoration: none;
-  color: darkgray;
+  color: royalblue;
 }
 a:hover{
   text-decoration: none;
-  color: dimgray;
+  color: rosybrown;
 }
 
 a[href="#portfolio"]{
