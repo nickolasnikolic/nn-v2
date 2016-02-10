@@ -35,6 +35,8 @@ article{
   padding: 2em;
   background-color: rgba(0,0,0,0.05);
 
+  border: 1px solid white;
+
   border-radius: 4em 0em 1em 1em;
 }
 
