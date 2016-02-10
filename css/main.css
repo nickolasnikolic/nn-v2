@@ -35,7 +35,7 @@ article{
   z-index: 4;
   margin: 1em;
   padding: 2em;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.05);
 
   border-radius: 4em 0em 1em 1em;
 }
