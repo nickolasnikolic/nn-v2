@@ -62,7 +62,7 @@ $(document).ready(function(){
     circle.attr({
       fill: p,
       stroke: '#fff',
-      strokeWidth: Math.random() * 30,
+      strokeWidth: Math.random() * 300,
       opacity: 0
     });
   }
