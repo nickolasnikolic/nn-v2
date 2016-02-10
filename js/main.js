@@ -80,7 +80,7 @@ $(document).ready(function(){
         animateDiv();
       });
 
-      $(this).css('background-blend-mode', 'difference');
+      $(this).css('background-blend-mode', 'multiply');
 
     });
 
