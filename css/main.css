@@ -69,25 +69,11 @@ h1,h2,h3,h4,h5,h6{
 
 p{
   color: white;
-  background-blend-mode: multiply;
 }
 
-a{
+a,a:visited,a:hover{
   text-decoration: none;
-  color: darkgray;
-  mix-blend-mode: darken;
-}
-a:visited{
-  text-decoration: none;
-  color: darkgray;
-}
-a:hover{
-  text-decoration: none;
-  color: darkgray;
-}
-
-a[href="#portfolio"]{
-  display: none;
+  color: cyan;
 }
 
 iframe{
