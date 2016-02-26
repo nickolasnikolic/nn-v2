@@ -73,6 +73,10 @@ p{
 
 a,a:visited,a:hover{
   text-decoration: none;
+  color: white;
+}
+
+p a{
   color: cyan;
 }
 
