@@ -47,7 +47,7 @@
   <section id="music">
     <article>
       <h2><a name="music">music</a></h2>
-      <p>I produce soundscapes under the stage/artists' name n2 or (n)2.</p>
+      <p>I produce soundscapes under the stage/artists' name n2, n-squared, or (n)2.</p>
       <p>You may find out more exclusively at <a href="https://play.google.com/store/music/artist?id=Ab37jb2qp4nibtl2bxe76q37u6y">Google Play</a></p>
     </article>
   </section>
