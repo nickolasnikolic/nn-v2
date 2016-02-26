@@ -22,7 +22,7 @@
       <h1 class="logo"><a href="#about">Nickolas Aleksandar Nikolic</a></h1>
       <nav>
         <a href="#about">about</a>
-        <a href="#portfolio">portfolio</a>
+        <a href="#music">music</a>
         <a href="#services">services</a>
         <a href="#academic">academic</a>
         <a href="#personal">personal</a>
@@ -43,47 +43,12 @@
     </article>
   </section>
 
-  <section id="portfolio">
 
-    <h2><a name="portfolio">portfolio</a></h2>
-    <article class="portfolio">
-      <!--add more as they appear in your life...-->
-      <div>
-        <div class="portfolioVisual">
-          <iframe id="portfolio1" src="yo/portfolio/1/300x250/index.html"></iframe>
-          <br/>
-          <button id="restartAnimationPortfolio1">restart animation</button>
-        </div>
-        <div class="portfolioText">
-          <h2>Animation</h2>
-          <p>This project is part of a series done for an anti-drug campaign. It is programmed in svg.</p>
-        </div>
-      </div>
-      <div>
-        <div class="portfolioVisual">
-          <a href="http://blindworm.me" target="_blank"><img src="yo/portfolio/2/bw.jpg"></a>
-        </div>
-        <div class="portfolioText">
-          <h2>Site conception</h2>
-          <p>This project is in php/mysql with use of the Amazon Product API.</p>
-          <p>It is a micro-service/UX fulcrum.</p>
-        </div>
-      </div>
-      <div>
-        <div class="portfolioVisual">
-          <img src="yo/portfolio/3/salesbuddy1.jpeg">
-          <br />
-          <img src="yo/portfolio/3/salesbuddy2.jpeg">
-          <br />
-          <img src="yo/portfolio/3/salesbuddy3.jpeg">
-        </div>
-        <div class="portfolioText">
-          <h2>Mobile</h2>
-          <p>This project aids sales staff in inputting customers into a proprietary CRM.</p>
-          <p><a href="https://itunes.apple.com/us/app/sales-buddy/id884759717" target="_blank">Apple App Store</a></p>
-          <p><a href="https://play.google.com/store/apps/details?id=com.morethanrewards.salesbuddy" target="_blank">Android App Store</a></p>
-        </div>
-      </div>
+  <section id="music">
+    <article>
+      <h2><a name="music">music</a></h2>
+      <p>I produce soundscapes under the stage/artists' name n2 or (n)2.</p>
+      <p>You may find out more at <a href="https://play.google.com/store/music/artist?id=Ab37jb2qp4nibtl2bxe76q37u6y">Google Play exclusively</a></p>
     </article>
   </section>
   <section id="services">
