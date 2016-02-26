@@ -34,7 +34,7 @@
     <h2><a name="about">about</a></h2>
     <article id="bio">
       <h3>who is this guy?</h3>
-      <p>Nickolas Nikolic is a developer of mobile and web from Milwaukee, WI USA.</p>
+      <p>Nickolas Nikolic is a producer of media, and developer of mobile and web from Milwaukee, WI USA.</p>
       <p>Also a graduate student at the time of this writing, he runs a 3.75 GPA.</p>
       <p>A very nice guy, he has earned over 30 awards for customer relations
         and has been part of over 60 open source projects through the years</p>
