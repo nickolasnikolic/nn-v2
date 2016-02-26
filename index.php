@@ -51,6 +51,11 @@
       <p>You may find out more exclusively at <a href="https://play.google.com/store/music/artist?id=Ab37jb2qp4nibtl2bxe76q37u6y">Google Play</a></p>
     </article>
   </section>
+    <footer>
+      <nav>
+        <a href="#about">top</a>
+      </nav>
+    </footer>
   <section id="services">
 
     <h2><a name="services">services</a></h2>
@@ -62,6 +67,11 @@
       <h3>Day Care</h3>
       <p>For retainer fee of $300 for a one-on-one meeting to assess needs in web or mobile, I then go to work for up to an additional 9 hours. Additional hours at $50 per hour.</p>
     </article>
+    <footer>
+      <nav>
+        <a href="#about">top</a>
+      </nav>
+    </footer>
   </section>
 
   <section id="academic">
@@ -75,6 +85,11 @@
       <h3>university of denver: graduate work (mas expected 2018)</h3>
       <p>Currently attending, Nick is focusing in mobile, web design, and development.</p>
     </article>
+    <footer>
+      <nav>
+        <a href="#about">top</a>
+      </nav>
+    </footer>
   </section>
   <section id="personal">
 
@@ -106,6 +121,11 @@
         photojournalist as well as through the Center for Media Change and
         American Public Media.</p>
     </article>
+    <footer>
+      <nav>
+        <a href="#about">top</a>
+      </nav>
+    </footer>
   </section>
   <section>
 
