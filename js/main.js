@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('#animation').click(function(){
+  $('#animationClicker').click(function(){
     document.getElementById('animation').contentDocument.location.reload(true);
   });
 
