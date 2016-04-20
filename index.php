@@ -77,7 +77,7 @@
 
     <section id="portfolio">
 
-      <h2><a name="portfolio">services</a></h2>
+      <h2><a name="portfolio">a selection of work</a></h2>
       <article id="mobile">
         <h3>mobile</h3>
         <p>The Sales-Buddy mobile app speeds data entry of customer information.</p>
