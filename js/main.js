@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  $('#animation').click(function(){
+    document.getElementById('animation').contentDocument.location.reload(true);
+  });
+
   var height = $(window).height();
   var width = $(window).width();
 
