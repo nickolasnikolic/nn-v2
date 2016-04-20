@@ -88,10 +88,6 @@ img{
   width: 15em;
 }
 
-#portfolio{
-  display: none;
-}
-
 circle{
   mix-blend-mode: multiply;
   background-blend-mode: difference;
