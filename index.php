@@ -24,6 +24,7 @@
         <a href="#about">about</a>
         <a href="#music">music</a>
         <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
         <a href="#academic">academic</a>
         <a href="#personal">personal</a>
         <a href="#contact">contact</a>
@@ -73,6 +74,31 @@
       </nav>
     </footer>
   </section>
+
+    <section id="portfolio">
+
+      <h2><a name="portfolio">services</a></h2>
+      <article id="mobile">
+        <h3>mobile</h3>
+        <p>The Sales-Buddy mobile app speeds data entry of customer information.</p>
+        <p>
+          <img src="yo/portfolio/3/salesbuddy1.jpeg" width="125" />
+          <img src="yo/portfolio/3/salesbuddy2.jpeg" width="125" />
+          <img src="yo/portfolio/3/salesbuddy3.jpeg" width="125" />
+        </p>
+        <p>You can find out more at the <a href="https://play.google.com/store/apps/details?id=com.morethanrewards.salesbuddy&hl=en">Google Play Store</a> and <a href="https://itunes.apple.com/us/app/sales-buddy/id884759717?mt=8">Apple App Store</a></p>
+      </article>
+      <article id="html5">
+        <h3>html5</h3>
+        <p>This project was for a Wisconsin anti-drug campaign.</p>
+        <iframe height="150" width="125" src="yo/portfolio/1/300x250/index.html"></iframe>
+      </article>
+      <footer>
+        <nav>
+          <a href="#about">top</a>
+        </nav>
+      </footer>
+    </section>
 
   <section id="academic">
 
