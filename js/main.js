@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('#animationClicker').click(function(){
-    document.getElementById('animation').contentDocument.location.reload(true);
+    $('#animation').attr("src", $('#animation').attr("src"));
   });
 
   var height = $(window).height();

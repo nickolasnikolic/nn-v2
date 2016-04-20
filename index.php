@@ -92,7 +92,7 @@
         <h3>html5</h3>
         <p>This project was for a Wisconsin anti-drug campaign.</p>
         <div>
-            <iframe id="animation" height="250" width="300" src="yo/portfolio/1/300x250/index.html"></iframe>
+            <iframe id="animation" height="250" width="300" src="yo/portfolio/1/300x250/index.html"></iframe><br />
             <button id="animationClicker">Click me to reload the animation</button>
         </div>
       </article>
